@@ -5,7 +5,7 @@
   width: var(--skill-card-width, 916px);
   border-radius: 12px;
   padding: var(--skill-card-padding, 32px 52px);
-  background-color: var(--color-card, #fff);
+  background-color: var(--user-card-container-bg);
 }
 
 .action {
@@ -72,7 +72,6 @@
 
 .category {
   margin-bottom: 20px;
-  color: var(--color-caption, #69735d);
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.02em;

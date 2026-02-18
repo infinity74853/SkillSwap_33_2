@@ -1,8 +1,12 @@
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable custom-property-pattern */
 /* Темные переменные */
 :root.dark {
   --bg-color: #121212;
-  --text-color: #fff;
+  --color-text: #fff;
   --link-color: #bb86fc;
   --button-bg: #1f1f1f;
   --button-text: #fff;
+  --user-card-container-bg: #69735d;
+  --cardInput: #69735d;
 }

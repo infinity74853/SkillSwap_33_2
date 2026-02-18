@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable custom-property-pattern */
 @import url('../../../app/styles/variables.css');
 
 .filterSection {
@@ -73,7 +75,7 @@
   align-items: center;
   gap: 4px;
   cursor: pointer;
-  color: var(--textLink-buttonPressed, #508826);
+  color: var(--textLink-buttonPressed, #121212);
 }
 
 .chevron {

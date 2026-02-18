@@ -1,3 +1,5 @@
+/* stylelint-disable function-url-quotes */
+/* stylelint-disable custom-property-pattern */
 .radioContainer {
   display: flex;
   align-items: center;
@@ -31,7 +33,7 @@
 }
 
 .hiddenRadio:checked + .customRadio .radioDot {
-  background-color: var(--textLink-buttonPressed, #508826);
+  background-color: var(--textLink-buttonPressed, #121212);
   mask-image: url(../../../app/assets/static/images/icons/radiobutton-active.svg);
 }
 

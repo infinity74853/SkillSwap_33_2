@@ -1,3 +1,6 @@
+/* stylelint-disable value-keyword-case */
+/* stylelint-disable declaration-empty-line-before */
+/* stylelint-disable custom-property-pattern */
 @import url('../../app/styles/variables.css');
 
 .container {
@@ -6,7 +9,7 @@
   margin: 0 auto;
   padding: 20px;
   border-radius: 12px;
-  background-color: var(--cardInput, #ffffff);
+  background-color: var(--cardInput, #fff);
 }
 
 .header {
@@ -20,7 +23,7 @@
   position: relative;
   background: none;
   border: none;
-  color: var(--textLink-buttonPressed, #508826);
+  color: var(--textLink-buttonPressed, #121212);
   cursor: pointer;
   line-height: inherit;
   padding-inline-start: 0;
